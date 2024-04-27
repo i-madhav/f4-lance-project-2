@@ -6,6 +6,7 @@ import patten from "../images/testimonal4.jpg"
 
 const bannerImg = {
     backgroundImage: `URL(${patten})`,
+    width: "100%"
 }
 
 const text = {

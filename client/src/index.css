@@ -454,11 +454,9 @@
                 align-items: center;
                 justify-content: space-between;
                 padding: 50px 5% 0px 5%;
-                position: relative;
-                flex-wrap: wrap;
-                margin-bottom: 100px;
                 gap: 5rem
             }
+
             
             .about-text {
                 width: 100%;
@@ -468,6 +466,7 @@
                 color: #fff;
                 list-style: circle;
                 margin-bottom: 15rem;
+                margin-top: -15rem;
             }
             
             .about-text h1 {
@@ -519,15 +518,15 @@
             }
             /* Media Queries for Responsive Design */
             
-            @media only screen and (min-width: 768px) {
+            @media only screen and (max-width: 768px) {
 
                 .name {
                     width: 100% !important;
                 }
                 .feature-div {
                     position: absolute;
-                    top: 60% !important;
-                    left: 55% !important;
+                    top: 60%;
+                    left: 55%;
                     transform: translate(-50%, -50%);
                     z-index: 7;
                     width: 50%;
@@ -553,10 +552,7 @@
                     justify-content: center !important;
                 }
 
-                .bestplan_col1, .bestplan_col2 {
-                    width: 80vw !important;
-                    margin: 10px;
-                }
+               
 
                 .offer {
                     width:90vw !important;
@@ -2498,7 +2494,7 @@
             .feature-div {
                 position: absolute;
                 top: 80%;
-                left: 50%;
+                left: 40%;
                 transform: translate(-50%, -50%);
                 z-index: 7;
                 width: 50%;

@@ -18,7 +18,7 @@ const chooseaplan ={
 }
 
 const width = {
-    width: '480px',
+    width: '600px',
     height: '50px',
     marginTop: '10px',
     marginBottom: '10px',
@@ -77,8 +77,6 @@ function PriceContenct() {
                 <input type="text" placeholder='Your Email ' id='email' value={email} onChange={(e) =>
                     setEmail(e.target.value)
                 } />
-                <label for="price-contact" ></label>
-
                 <select id="price-contact"  value={plan} style={width} onChange={(e) =>
                     setPlan(e.target.value)} >
                 <option value="chooseplan">Choose a plan:</option>
